@@ -84,9 +84,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(118, 177);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Belopp 1";
+            this.label3.Text = "Att betala";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
@@ -94,9 +94,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(118, 271);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 13);
+            this.label4.Size = new System.Drawing.Size(61, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Belopp 2";
+            this.label4.Text = "Att utbetala";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox1
@@ -131,6 +131,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(121, 287);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(198, 20);
             this.textBox2.TabIndex = 9;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);

@@ -25,7 +25,6 @@ namespace Centric.Currency.Exchange
             InitializeComponent();
             AddItemsToCombobox();
             label7.Text = "";
-            this.ShowInTaskbar = false;
         }
 
         private void AddItemsToCombobox()
@@ -125,6 +124,7 @@ namespace Centric.Currency.Exchange
             var totalValue = (txtBox * secondValue) - CommissionAmount;
 
             label4.Text = $"Att utbetala ({cB2SelectedItem})";
+            label3.Text = $"Att betala ({cB1SelectedItem})";
             textBox2.Text = Math.Round(totalValue, 2).ToString();
         }
 

@@ -15,7 +15,6 @@ namespace Centric.Currency.Exchange
         public Settings()
         {
             InitializeComponent();
-            this.ShowInTaskbar = false;
             try
             {
                 numericUpDown1.Value = Commission.GlobalCommission;
@@ -44,6 +43,11 @@ namespace Centric.Currency.Exchange
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

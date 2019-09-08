@@ -15,6 +15,7 @@ namespace Centric.Currency.Exchange
         public Start()
         {
             InitializeComponent();
+            label1.Text = $"Kommission : {Commission.GlobalCommission.ToString()}%";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,6 +30,11 @@ namespace Centric.Currency.Exchange
             this.Hide();
             Settings form = new Settings();
             form.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

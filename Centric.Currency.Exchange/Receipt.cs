@@ -15,7 +15,6 @@ namespace Centric.Currency.Exchange
         public Receipt(CustomerReceipt receipt)
         {
             InitializeComponent();
-            this.ShowInTaskbar = false;
             try
             {
                 label2.Text = receipt.Date.ToString();
